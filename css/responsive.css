@@ -1,0 +1,1827 @@
+/* ******************** extra small device responsive start ******************** */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* ***************** common css responsive start ******************** */
+  .title {
+    margin-bottom: 25px;
+  }
+
+  .title p {
+    width: 300px;
+  }
+
+  /* ***************** common css responsive end ******************** */
+
+  /* ***************** header part responsive start ******************** */
+  #header-part .header-items .left-text {
+    display: none;
+  }
+
+  #header-part .header-items .right-text {
+    width: 100%;
+    text-align: right;
+  }
+
+  /* ***************** header part responsive end ******************** */
+
+  /* ***************** navbar part responsive start ******************** */
+  .menu {
+    padding-bottom: 0;
+    padding: 10px 0 !important;
+  }
+
+  .menu .navbar-brand {
+    margin-left: 20px;
+  }
+
+  .menu button {
+    margin-top: 15px;
+  }
+
+  .menu ul {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin-left: 0;
+  }
+
+  .menu ul .menu-btn {
+    margin-top: 20px !important;
+    margin-left: 0;
+  }
+
+  .menu ul .menu-btn a {
+    border-radius: 5px !important;
+  }
+
+  /* ***************** navbar part responsive end ******************** */
+
+  /* ***************** banner part responsive start ******************** */
+  #banner-part {
+    margin-bottom: 570px !important;
+  }
+
+  #banner-part .overlay {
+    text-align: center;
+    padding: 50px 0 120px !important;
+  }
+
+  #banner-part h2 {
+    font-size: 30px !important;
+  }
+
+  #banner-part h2 span {
+    font-size: 25px !important;
+  }
+
+  #banner-part p {
+    width: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 50px !important;
+  }
+
+  #banner-part a {
+    margin-bottom: 15px !important;
+  }
+
+  #banner-part .banner .right,
+  #banner-part .banner .left {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    top: 53%;
+    right: 15px;
+  }
+
+  #banner-part .banner .left {
+    left: 15px;
+  }
+  #banner-part .banner-cards {
+    top: 135%;
+  }
+  #banner-part .banner-cards .card-items {
+    flex-direction: column;
+  }
+  #banner-part .banner-cards .card-items .service-card {
+    width: 100%;
+  }
+
+  /* ***************** banner part responsive end ******************** */
+
+  /* ***************** about part responsive start ******************** */
+  #about-part {
+    padding-top: 100px;
+  }
+
+  #about-part .about-slider::before,
+  #about-part .about-items::before {
+    width: 200px !important;
+  }
+
+  #about-part .about-slider::after {
+    left: 76px !important;
+  }
+
+  #about-part .about-items::after {
+    right: 76px !important;
+  }
+
+  #about-part .about-details {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  #about-part .about-details .p-two {
+    padding: 15px 0 !important;
+  }
+
+  #about-part .about-details a {
+    margin-bottom: 15px;
+  }
+
+  /* ***************** about part responsive end ******************** */
+
+  /* ***************** counter part responsive start ******************** */
+  #counter-part {
+    padding-top: 40px;
+  }
+
+  #counter-part .overlay .counter-card {
+    padding: 15px 0;
+  }
+
+  #counter-part .overlay .counter-card p {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  #counter-part .overlay .counter-card p::after {
+    right: 110px;
+  }
+
+  #counter-part .overlay .counter-card p span {
+    font-size: 25px;
+  }
+
+  /* ***************** counter part responsive end ******************** */
+
+  /* ***************** courses part responsive start ******************** */
+  #courses-part {
+    padding-top: 100px;
+  }
+  #courses-part .courses-items .courses-slider .btn {
+    font-size: 13px;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating {
+    width: 40%;
+    align-self: center;
+  }
+
+  /* ***************** courses part responsive end ******************** */
+
+  /* ***************** events part responsive start ******************** */
+  #events-part {
+    padding-top: 100px;
+  }
+
+  #events-part .calender-items {
+    margin-top: 20px;
+  }
+  #events-part .calender-items .calender-event {
+    flex-direction: column;
+  }
+  #events-part .calender-items .calender-event .event-img {
+    width: 100%;
+    margin-right: 0;
+  }
+  #events-part .calender-items .calender-event .event-img .date {
+    width: 40px;
+    height: 40px;
+  }
+
+  #events-part .calender-items .calender-event .event-img .date p {
+    font-size: 14px;
+  }
+
+  #events-part .calender-items .calender-event .event-details {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* ***************** events part responsive end ******************** */
+
+  /* ***************** testi part responsive start ******************** */
+  #testi-part {
+    padding-top: 30px;
+  }
+  #testi-part .testi-part {
+    padding: 25px 0;
+  }
+  #testi-part .testi-part .testi-items {
+    flex-direction: column;
+  }
+  #testi-part .testi-part .testi-items .testi-shape {
+    width: 100%;
+  }
+
+  #testi-part .testi-part .testi-items .testi-slider {
+    width: 100%;
+  }
+
+  #testi-part .testi-part .testi-items .testi-slider::before {
+    width: 200px;
+    display: inline-block;
+  }
+  #testi-part .testi-part .testi-items .testi-slider::after {
+    width: 8px;
+    right: 76px;
+    display: inline-block;
+  }
+  #testi-part .testi-part .testi-items .testi-slider .slider-items .img {
+    height: auto;
+  }
+  #testi-part .testi-part .testi-items .testi-details {
+    width: 100%;
+  }
+  #testi-part
+    .testi-part
+    .accordion-items
+    .accordion
+    .card
+    .card-header
+    button
+    h4 {
+    font-size: 16px;
+  }
+  #testi-part .testi-part .accordion-items .accordion .card .card-body p {
+    text-align: center;
+  }
+
+  /* ***************** testi part responsive end ******************** */
+
+  /* ***************** teachers part responsive start ******************** */
+  #teacher-part {
+    padding-top: 100px;
+  }
+  #teacher-part .teacher-items .teacher-slider .teacher-img {
+    height: auto !important;
+  }
+
+  /* ***************** teachers part responsive end ******************** */
+
+  /* ***************** blog part responsive start ******************** */
+  #blog-part {
+    padding-top: 30px;
+  }
+  #blog-part .blog-part {
+    height: 990px;
+  }
+  #blog-part .blog-part .blog-items .blog-card {
+    margin-top: 20px;
+  }
+  #blog-part .blog-part .blog-items .blog-card .main-img .overlay h4 {
+    font-size: 16px;
+  }
+  #blog-part .blog-part .blog-items .blog-card .double-img .img .overlay h4 {
+    font-size: 13px;
+  }
+  /* ***************** blog part responsive end ******************** */
+
+  /* ***************** footer part responsive start ******************** */
+  #footer-part {
+    padding-top: 100px;
+  }
+  #footer-part .footer-part .links .links-item .first-ul {
+    width: 55%;
+  }
+  #footer-part .footer-part .links .links-item .secound-ul {
+    width: 40%;
+  }
+  #footer-part .footer-part .details img {
+    margin-bottom: 16px;
+  }
+  #footer-part .footer-part .details p {
+    margin-bottom: -16px !important;
+  }
+  #footer-part .footer-part .links h2,
+  #footer-part .footer-part .contact h2 {
+    margin: 20px 0;
+  }
+  #footer-part .footer-part .links .links-item ul li {
+    margin-bottom: 12px;
+  }
+
+  #footer-part .footer-part .contact ul li {
+    margin-bottom: 12px;
+  }
+  /* ***************** footer part responsive end ******************** */
+
+  /* ***************** about page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 430px !important;
+  }
+  #banner-a .banner-cards {
+    transform: translate(-50%, -17%);
+  }
+  #banner-a .banner-cards .card-items {
+    flex-direction: column;
+  }
+  #banner-a .banner-cards .service-card {
+    width: 100%;
+    padding: 10px 0;
+  }
+  #banner-a .banner-cards .service-card img {
+    width: 16%;
+  }
+  #banner-a .banner-cards .service-card h4 {
+    font-size: 18px;
+  }
+  #about-a {
+    margin-top: 0;
+  }
+  #about-video {
+    margin-top: 40px;
+  }
+  /* ***************** about page responsive end ******************** */
+
+  /* ***************** our courses page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 370px !important;
+  }
+  #courses-c {
+    padding-top: 0;
+  }
+  #courses-c .courses-items {
+    padding-bottom: 30px;
+  }
+  #courses-c .first {
+    margin-top: 0 !important;
+  }
+  #courses-c .courses-items .courses-slider .identity {
+    flex-direction: column;
+  }
+  #courses-c .courses-items .courses-slider .identity .img {
+    width: auto;
+    margin: 0 auto;
+  }
+  #courses-c .courses-items .courses-slider .identity .rating {
+    width: auto;
+    margin: 0 auto;
+  }
+  #courses-c .courses-items .courses-slider .details {
+    text-align: center;
+  }
+  #courses-c .courses-items .courses-slider .details h2 {
+    font-size: 20px;
+  }
+  #courses-c .courses-items .courses-slider .btn {
+    font-size: 16px;
+  }
+  /* ***************** our courses page responsive end ******************** */
+
+  /* ***************** our events page responsive start ******************** */
+  #tabs-part {
+    padding-top: 100px;
+  }
+
+  #tabs-part .calender-items {
+    margin-top: 20px;
+  }
+  #tabs-part .calender-items .calender-event {
+    flex-direction: column;
+    text-align: center;
+  }
+  #tabs-part .calender-items .calender-event .event-img {
+    width: 100% !important;
+    margin-right: 0;
+  }
+  #tabs-part .calender-items .calender-event .event-img .date {
+    width: 40px;
+    height: 40px;
+  }
+
+  #tabs-part .calender-items .calender-event .event-img .date p {
+    font-size: 14px;
+  }
+
+  #tabs-part .calender-items .calender-event .event-details {
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 20px;
+  }
+  #tabs-part .tab-first .calender-items .calender-event .event-details p {
+    width: 260px;
+  }
+  #tabs-part .tab-first .calender-items .calender-event .event-details #btn {
+    font-size: 16px;
+  }
+  /* ***************** our events page responsive end ******************** */
+
+  /* ***************** teachers page responsive start ******************** */
+  #teacher-details {
+    margin-top: 0px;
+    padding-top: 0;
+  }
+
+  #teacher-details .teacher-items .teacher-slider .teacher-img {
+    height: auto;
+  }
+
+  /* ***************** teachers page responsive end ******************** */
+
+  /* ***************** register page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 470px !important;
+  }
+  #register-part {
+    margin-top: 0;
+  }
+  #register-part .img {
+    padding-bottom: 100px !important;
+  }
+  #register-part form .right {
+    padding: 0 15px;
+  }
+  #register-part form .text p {
+    font-size: 15px;
+  }
+  /* ***************** register page responsive end ******************** */
+
+  /* ***************** register page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 470px !important;
+  }
+  #login-part {
+    margin-top: 0;
+  }
+  #login-part .img {
+    padding-bottom: 100px !important;
+  }
+  #login-part form .text {
+    margin-top: 12px;
+  }
+  #login-part form .right {
+    padding: 0 15px;
+  }
+  #login-part form .text p {
+    font-size: 15px;
+  }
+  /* ***************** register page responsive end ******************** */
+}
+
+/* ******************** extra small device responsive end ******************** */
+
+/* ********************  small device responsive start ******************** */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* ***************** common css responsive start ******************** */
+  .title {
+    margin-bottom: 25px;
+  }
+
+  .title p {
+    width: 550px;
+  }
+
+  /* ***************** common css responsive end ******************** */
+
+  /* ***************** header part responsive start ******************** */
+  #header-part .header-items .left-text {
+    display: none;
+  }
+
+  #header-part .header-items .right-text {
+    width: 100%;
+    text-align: right;
+  }
+
+  /* ***************** header part responsive end ******************** */
+
+  /* ***************** navbar part responsive start ******************** */
+  .menu {
+    padding-bottom: 0;
+    padding: 10px 0 !important;
+  }
+
+  .menu .navbar-brand {
+    margin-left: 20px;
+  }
+
+  .menu button {
+    margin-top: 15px;
+  }
+  .menu button:focus {
+    outline: none;
+  }
+  .menu ul {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin-left: 0;
+  }
+
+  .menu ul .menu-btn {
+    margin-top: 20px !important;
+    margin-left: 0;
+  }
+
+  .menu ul .menu-btn a {
+    border-radius: 5px !important;
+  }
+
+  /* ***************** navbar part responsive end ******************** */
+
+  /* ***************** banner part responsive start ******************** */
+  #banner-part {
+    margin-bottom: 570px !important;
+  }
+
+  #banner-part .overlay {
+    text-align: center;
+    padding: 50px 0 120px !important;
+  }
+
+  #banner-part h2 {
+    font-size: 30px !important;
+  }
+
+  #banner-part h2 span {
+    font-size: 25px !important;
+  }
+
+  #banner-part p {
+    width: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 50px !important;
+  }
+
+  #banner-part a {
+    margin-bottom: 15px !important;
+  }
+
+  #banner-part .banner .right,
+  #banner-part .banner .left {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    top: 53%;
+    right: 15px;
+  }
+
+  #banner-part .banner .left {
+    left: 15px;
+  }
+  #banner-part .banner-cards {
+    top: 150%;
+  }
+  #banner-part .banner-cards .card-items {
+    flex-direction: column;
+  }
+  #banner-part .banner-cards .card-items .service-card {
+    width: 100%;
+  }
+
+  /* ***************** banner part responsive end ******************** */
+
+  /* ***************** about part responsive start ******************** */
+  #about-part {
+    padding-top: 100px;
+  }
+
+  #about-part .about-slider::before,
+  #about-part .about-items::before {
+    width: 200px !important;
+  }
+
+  #about-part .about-slider::after {
+    left: 76px !important;
+  }
+
+  #about-part .about-items::after {
+    right: 76px !important;
+  }
+
+  #about-part .about-details {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  #about-part .about-details .p-two {
+    padding: 15px 0 !important;
+  }
+
+  #about-part .about-details a {
+    margin-bottom: 15px;
+  }
+
+  /* ***************** about part responsive end ******************** */
+
+  /* ***************** counter part responsive start ******************** */
+  #counter-part {
+    padding-top: 40px;
+  }
+
+  #counter-part .overlay .counter-card {
+    padding: 15px 0;
+  }
+
+  #counter-part .overlay .counter-card p {
+    font-size: 14px;
+    padding-bottom: 0;
+  }
+
+  #counter-part .overlay .counter-card p::after {
+    right: 110px;
+  }
+
+  #counter-part .overlay .counter-card p span {
+    font-size: 25px;
+  }
+
+  /* ***************** counter part responsive end ******************** */
+
+  /* ***************** courses part responsive start ******************** */
+  #courses-part {
+    padding-top: 100px;
+  }
+  #courses-part .courses-items .courses-slider .btn {
+    font-size: 20px;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating {
+    width: 40%;
+    align-self: center;
+  }
+
+  /* ***************** courses part responsive end ******************** */
+
+  /* ***************** events part responsive start ******************** */
+  #events-part {
+    padding-top: 100px;
+  }
+
+  #events-part .calender-items {
+    margin-top: 20px;
+  }
+  #events-part .calender-items .calender-event {
+    flex-direction: row;
+  }
+  #events-part .calender-items .calender-event .event-img {
+    width: 36%;
+    margin-right: 0;
+  }
+  #events-part .calender-items .calender-event .event-img .date {
+    width: 40px;
+    height: 40px;
+  }
+
+  #events-part .calender-items .calender-event .event-img .date p {
+    font-size: 14px;
+  }
+
+  #events-part .calender-items .calender-event .event-details {
+    width: 58%;
+  }
+  #events-part .calender-items .calender-event .event-details h4 {
+    font-size: 18px;
+  }
+  #events-part .calender-items .calender-event .event-details #btn {
+    font-size: 16px;
+  }
+
+  /* ***************** events part responsive end ******************** */
+
+  /* ***************** testi part responsive start ******************** */
+  #testi-part {
+    padding-top: 30px;
+  }
+  #testi-part .testi-part {
+    padding: 25px 0;
+  }
+  #testi-part .testi-part .testi-items {
+    flex-direction: column;
+  }
+  #testi-part .testi-part .testi-items .testi-shape {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #testi-part .testi-part .testi-items .testi-slider {
+    width: 100%;
+  }
+
+  #testi-part .testi-part .testi-items .testi-slider::before {
+    width: 200px;
+    display: inline-block;
+  }
+  #testi-part .testi-part .testi-items .testi-slider::after {
+    width: 8px;
+    right: 76px;
+    display: inline-block;
+  }
+
+  #testi-part .testi-part .testi-items .testi-details {
+    width: 100%;
+  }
+  #testi-part .testi-part .testi-items .testi-details .details-slider {
+    text-align: center;
+  }
+  #testi-part
+    .testi-part
+    .accordion-items
+    .accordion
+    .card
+    .card-header
+    button
+    h4 {
+    text-align: center;
+  }
+  #testi-part .testi-part .accordion-items .accordion .card .card-body p {
+    text-align: center;
+  }
+
+  /* ***************** testi part responsive end ******************** */
+
+  /* ***************** teachers part responsive start ******************** */
+  #teacher-part {
+    padding-top: 100px;
+  }
+  #teacher-part .teacher-items .teacher-slider {
+    margin: 0 10px;
+  }
+  #teacher-part .teacher-items .teacher-slider .teacher-img {
+    height: auto;
+  }
+
+  /* ***************** teachers part responsive end ******************** */
+
+  /* ***************** blog part responsive start ******************** */
+  #blog-part {
+    padding-top: 30px;
+  }
+  #blog-part .blog-part {
+    height: 990px;
+  }
+  #blog-part .blog-part .blog-items .blog-card {
+    margin-top: 20px;
+  }
+  #blog-part .blog-part .blog-items .blog-card .main-img .overlay h4 {
+    font-size: 16px;
+  }
+  =
+  /* ***************** blog part responsive end ******************** */
+
+  /* ***************** footer part responsive start ******************** */
+  #footer-part {
+    padding-top: 100px;
+  }
+  #footer-part .contact {
+    margin-bottom: 30px;
+  }
+  #footer-part .footer-part .links .links-item .first-ul {
+    width: 40%;
+  }
+  #footer-part .footer-part .links .links-item .secound-ul {
+    width: 60%;
+  }
+  #footer-part .footer-part .details img {
+    margin-bottom: 16px;
+  }
+  #footer-part .footer-part .details p {
+    margin-bottom: -16px !important;
+  }
+  #footer-part .footer-part .links h2,
+  #footer-part .footer-part .contact h2 {
+    margin: 20px 0;
+  }
+  #footer-part .footer-part .links .links-item ul li {
+    margin-bottom: 12px;
+  }
+
+  #footer-part .footer-part .contact ul li {
+    margin-bottom: 12px;
+  }
+  #footer-part .footer-part .contact ul li .icon {
+    width: 10%;
+  }
+  #footer-part .footer-part .contact ul li .address {
+    width: 86%;
+  }
+  /* ***************** footer part responsive end ******************** */
+
+  /* ***************** about page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 500px !important;
+  }
+  #banner-a .banner-cards {
+    transform: translate(-50%, -17%);
+  }
+  #banner-a .banner-cards .card-items {
+    flex-direction: column;
+  }
+  #banner-a .banner-cards .service-card {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #about-a {
+    margin-top: 0;
+  }
+  #about-video {
+    margin-top: 40px;
+  }
+  /* ***************** about page responsive end ******************** */
+
+  /* ***************** our courses page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 430px !important;
+  }
+  #courses-c {
+    padding-top: 0;
+  }
+  #courses-c .courses-items {
+    padding-bottom: 30px;
+  }
+  #courses-c .courses-items .courses-slider .identity {
+    flex-direction: column;
+  }
+  #courses-c .courses-items .courses-slider .identity .img {
+    width: auto;
+    margin: 0 auto;
+  }
+  #courses-c .courses-items .courses-slider .identity .rating {
+    width: auto;
+    margin: 0 auto;
+  }
+  #courses-c .courses-items .courses-slider .details {
+    text-align: center;
+  }
+  #courses-c .courses-items .courses-slider .details h2 {
+    font-size: 18px;
+  }
+  #courses-c .courses-items .courses-slider .btn {
+    font-size: 14px;
+    padding: 13px 15px;
+  }
+  /* ***************** our courses page responsive end ******************** */
+  /* ***************** our events page responsive start ******************** */
+  #tabs-part {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+  /* ***************** our events page responsive end ******************** */
+
+  /* ***************** register page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 500px !important;
+  }
+  #register-part {
+    margin-top: 0;
+  }
+  #register-part .img {
+    padding-bottom: 100px !important;
+  }
+  #register-part form .text {
+    margin-top: 12px;
+  }
+  #register-part form .right {
+    padding: 0 15px;
+  }
+  #register-part form .text p {
+    font-size: 15px;
+  }
+  #register-part form .text .icon {
+    right: 55% !important;
+  }
+  /* ***************** register page responsive end ******************** */
+
+  /* ***************** login page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 500px !important;
+  }
+  #login-part {
+    margin-top: 0;
+  }
+  #login-part .img {
+    padding-bottom: 100px !important;
+  }
+  #login-part form .text {
+    margin-top: 12px;
+  }
+  #login-part form .right {
+    padding: 0 15px;
+  }
+  #login-part form .text p {
+    font-size: 15px;
+  }
+  #register-part form .text .icon {
+    right: 20%;
+  }
+  /* ***************** login page responsive end ******************** */
+}
+/* ******************** small device responsive end ******************** */
+
+/* ********************  medium device responsive start ******************** */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* ***************** navbar part responsive start ******************** */
+  .menu {
+    padding-bottom: 0;
+    padding: 10px 0 !important;
+  }
+
+  .menu .navbar-brand {
+    margin-left: 20px;
+  }
+
+  .menu button {
+    margin-top: 15px;
+  }
+  .menu button:focus {
+    outline: none;
+  }
+  .menu ul {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin-left: 0;
+  }
+
+  .menu ul .menu-btn {
+    margin-top: 20px !important;
+    margin-left: 0;
+  }
+
+  .menu ul .menu-btn a {
+    border-radius: 5px !important;
+  }
+
+  /* ***************** navbar part responsive end ******************** */
+
+  /* ***************** banner part responsive start ******************** */
+  #banner-part {
+    margin-bottom: 50px !important;
+  }
+
+  #banner-part .overlay {
+    text-align: center;
+    padding: 80px 0 160px !important;
+  }
+
+  #banner-part h2 {
+    font-size: 35px !important;
+  }
+
+  #banner-part h2 span {
+    font-size: 30px !important;
+  }
+
+  #banner-part p {
+    width: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 50px !important;
+  }
+
+  #banner-part a {
+    margin-bottom: 15px !important;
+  }
+
+  #banner-part .banner .right,
+  #banner-part .banner .left {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    top: 53%;
+    right: 15px;
+  }
+
+  #banner-part .banner .left {
+    left: 15px;
+  }
+  #banner-part .banner-cards {
+  }
+
+  #banner-part .banner-cards .card-items .service-card {
+    width: 100%;
+    padding: 15px !important;
+  }
+  #banner-part .banner-cards .card-items .service-card img {
+    width: 20%;
+  }
+  #banner-part .banner-cards .service-card h4 {
+    font-size: 18px;
+  }
+
+  /* ***************** banner part responsive end ******************** */
+
+  /* ***************** about part responsive start ******************** */
+  #about-part {
+    padding-top: 100px;
+  }
+
+  #about-part .about-slider::before,
+  #about-part .about-items::before {
+    width: 200px !important;
+  }
+
+  #about-part .about-slider::after {
+    left: 76px !important;
+  }
+
+  #about-part .about-items::after {
+    right: 76px !important;
+  }
+
+  #about-part .about-details {
+    text-align: center;
+    padding: 0;
+  }
+  #about-part .about-details p {
+    font-size: 12px !important;
+  }
+  #about-part .about-details .p-two {
+    padding: 10px 0 !important;
+  }
+
+  #about-part .about-details a {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  /* ***************** about part responsive end ******************** */
+
+  /* ***************** counter part responsive start ******************** */
+  #counter-part {
+    padding-top: 40px;
+  }
+
+  #counter-part .overlay .counter-card {
+    padding: 15px 0;
+  }
+
+  #counter-part .overlay .counter-card p {
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+
+  #counter-part .overlay .counter-card p span {
+    font-size: 30px;
+  }
+
+  /* ***************** counter part responsive end ******************** */
+
+  /* ***************** courses part responsive start ******************** */
+  #courses-part {
+    padding-top: 100px;
+  }
+  #courses-part .courses-items .left {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    left: -12px;
+  }
+  #courses-part .courses-items .right {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    left: 102%;
+  }
+  #courses-part .courses-items .slick-current {
+    box-shadow: none;
+  }
+  #courses-part .courses-items .slick-current .header-img .overlay {
+    opacity: 0 !important;
+  }
+  #courses-part .courses-items .slick-current .details h2 {
+    color: #222222 !important;
+  }
+  #courses-part .courses-items .slick-current a {
+    background: #2d3e50 !important;
+  }
+  #courses-part .courses-items .courses-slider:hover .header-img .overlay {
+    opacity: 1 !important;
+  }
+  #courses-part .courses-items .courses-slider:hover .details h2 {
+    color: #fbaa33 !important;
+  }
+  #courses-part .courses-items .courses-slider:hover .btn {
+    background: #fbaa33 !important;
+  }
+
+  #courses-part .courses-items .courses-slider .btn {
+    font-size: 16px;
+  }
+  #courses-part .courses-items .courses-slider .identity .img {
+    width: 68%;
+  }
+  #courses-part .courses-items .courses-slider .identity .img p {
+    font-size: 14px;
+  }
+  #courses-part .courses-items .courses-slider .identity .img p span {
+    font-size: 12px;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating {
+    width: 30%;
+    align-self: center;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating i {
+    font-size: 13px;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating p {
+    font-size: 12px;
+  }
+
+  /* ***************** courses part responsive end ******************** */
+
+  /* ***************** events part responsive start ******************** */
+  #events-part {
+    padding-top: 100px;
+  }
+
+  #events-part .calender-items {
+    margin-top: 20px;
+  }
+  #events-part .calender-items .calender-event {
+    flex-direction: row;
+  }
+  #events-part .calender-items .calender-event .event-img {
+    width: 36%;
+    margin-right: 0;
+  }
+
+  #events-part .calender-items .calender-event .event-details {
+    width: 58%;
+    align-self: center;
+  }
+
+  /* ***************** events part responsive end ******************** */
+
+  /* ***************** testi part responsive start ******************** */
+  #testi-part {
+    padding-top: 30px;
+  }
+  #testi-part .testi-part {
+    padding: 25px 0;
+  }
+  #testi-part .testi-part .testi-items {
+    margin-bottom: 30px;
+  }
+  #testi-part .testi-part .testi-items .testi-shape {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #testi-part .testi-part .testi-items .testi-slider {
+    width: 100%;
+  }
+
+  #testi-part .testi-part .testi-items .testi-details {
+    width: 50%;
+  }
+  #testi-part .testi-part .testi-items .testi-details .details-slider {
+    text-align: center;
+  }
+  #testi-part
+    .testi-part
+    .accordion-items
+    .accordion
+    .card
+    .card-header
+    button
+    h4 {
+    text-align: left;
+  }
+
+  /* ***************** testi part responsive end ******************** */
+
+  /* ***************** teachers part responsive start ******************** */
+  #teacher-part {
+    padding-top: 100px;
+  }
+  #teacher-part .teacher-items .teacher-slider {
+    margin: 0 10px;
+  }
+  #teacher-part .teacher-items .teacher-slider .teacher-img {
+    height: auto;
+  }
+
+  /* ***************** teachers part responsive end ******************** */
+
+  /* ***************** blog part responsive start ******************** */
+  #blog-part {
+    padding-top: 30px;
+  }
+  #blog-part .blog-part {
+    height: 250px;
+  }
+  #blog-part .blog-part .blog-items .blog-card {
+    margin-top: 20px;
+  }
+  #blog-part .blog-part .blog-items .blog-card .main-img .overlay h4 {
+    font-size: 16px;
+  }
+  #blog-part .blog-part .blog-items .blog-card .double-img .img .overlay h4 {
+    font-size: 14px;
+  }
+  /* ***************** blog part responsive end ******************** */
+
+  /* ***************** footer part responsive start ******************** */
+  #footer-part {
+    padding-top: 100px;
+  }
+  #footer-part .contact {
+    margin-bottom: 30px;
+  }
+  #footer-part .footer-part .links .links-item .first-ul {
+    width: 50%;
+  }
+  #footer-part .footer-part .links .links-item .secound-ul {
+    width: 50%;
+  }
+  #footer-part .footer-part .links .links-item ul li a {
+    font-size: 14px;
+  }
+  #footer-part .footer-part .links .links-item ul .long-li {
+    display: none;
+  }
+  #footer-part .footer-part .details img {
+    margin-bottom: 16px;
+  }
+  #footer-part .footer-part .details p {
+    margin-bottom: -16px !important;
+  }
+  #footer-part .footer-part .contact ul li .icon {
+    display: none;
+  }
+  #footer-part .footer-part .details .icons i {
+    margin-right: 8px;
+  }
+  #footer-part .footer-part .links h2,
+  #footer-part .footer-part .contact h2 {
+    margin: 20px 0;
+  }
+  #footer-part .footer-part .links .links-item ul li {
+    margin-bottom: 12px;
+  }
+
+  #footer-part .footer-part .contact ul li {
+    margin-bottom: 12px;
+  }
+  #footer-part .footer-part .contact ul li .icon {
+    width: 10%;
+  }
+  #footer-part .footer-part .contact ul li .address {
+    width: 86%;
+  }
+  /* ***************** footer part responsive end ******************** */
+
+  /* ***************** about page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 0 !important;
+  }
+  #banner-a .banner-cards {
+    transform: translate(-50%, -50%);
+  }
+  #banner-a .banner-cards .card-items {
+    flex-direction: row;
+  }
+  #banner-a .banner-cards .service-card {
+    width: 100%;
+    padding: 10px 0;
+  }
+  #banner-a .banner-cards .service-card img {
+    width: 24%;
+  }
+  #banner-a .banner-cards .service-card h4 {
+    font-size: 18px;
+  }
+
+  #about-a {
+    margin-top: 160px;
+  }
+  #about-a .about-slider,
+  #about-video .video-box {
+    margin-top: 60px;
+  }
+  #about-a .slider-texts p,
+  #about-video .video-text p {
+    font-size: 13px;
+  }
+  #about-a .slider-texts .mid {
+    margin: 5px 0;
+  }
+  #about-a .slider-text-p0 p,
+  #about-video .video-text-p0 p {
+    font-size: 13px;
+  }
+  #about-video {
+    margin-top: 40px;
+  }
+  /* ***************** about page responsive end ******************** */
+
+  /* ***************** our courses page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 80px !important;
+  }
+  #courses-c {
+    padding-top: 0;
+  }
+  #courses-c .courses-items {
+    padding-bottom: 30px;
+  }
+  #courses-c .courses-items .courses-slider .details h2 {
+    font-size: 18px;
+  }
+
+  /* ***************** our courses page responsive end ******************** */
+
+  /* ***************** register page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 260px !important;
+  }
+  #register-part {
+    margin-top: 0;
+  }
+  #register-part .img {
+    padding-bottom: 100px !important;
+  }
+  #register-part form .right {
+    padding: 0 15px;
+  }
+  #register-part form .text p {
+    font-size: 15px;
+  }
+  #register-part form .text .icon {
+    right: 35% !important;
+  }
+  /* ***************** register page responsive end ******************** */
+
+  /* ***************** login page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 260px !important;
+  }
+  #login-part {
+    margin-top: 0;
+  }
+  #login-part .img {
+    padding-bottom: 100px !important;
+  }
+  #login-part form .right {
+    padding: 0 15px;
+  }
+  #login-part form .text p {
+    font-size: 15px;
+  }
+  #login-part form .text .icon {
+    right: 35% !important;
+  }
+  /* ***************** login page responsive end ******************** */
+}
+/* ******************** medium device responsive end ******************** */
+
+/* ********************  medium device responsive start ******************** */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* ***************** navbar part responsive start ******************** */
+  .menu {
+    padding-bottom: 20px;
+    padding-top: 13px;
+  }
+
+  .menu .navbar-brand {
+    margin-left: 20px;
+  }
+
+  .menu button {
+    margin-top: 15px;
+  }
+  .menu button:focus {
+    outline: none;
+  }
+  .menu ul {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin-left: 10px;
+  }
+
+  .menu ul .menu-btn {
+    margin-left: 18px;
+  }
+
+  .menu ul .menu-btn a {
+    border-radius: 5px !important;
+  }
+
+  /* ***************** navbar part responsive end ******************** */
+
+  /* ***************** banner part responsive start ******************** */
+  #banner-part {
+    margin-bottom: 50px !important;
+  }
+
+  #banner-part .banner .right,
+  #banner-part .banner .left {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    top: 75%;
+    right: 15px;
+    cursor: pointer;
+  }
+  #banner-part .banner .banner-slider .overlay {
+    padding: 80px 0 180px 0;
+  }
+
+  #banner-part .banner .left {
+    left: 15px;
+  }
+
+  #banner-part .banner-cards .card-items .service-card {
+    width: 100%;
+    padding: 15px !important;
+  }
+
+  /* ***************** banner part responsive end ******************** */
+
+  /* ***************** about part responsive start ******************** */
+  #about-part {
+    padding-top: 100px;
+  }
+
+  #about-part .about-details {
+    text-align: center;
+    padding: 0;
+    margin-top: 18px;
+  }
+
+  /* ***************** about part responsive end ******************** */
+
+  /* ***************** counter part responsive start ******************** */
+  #counter-part {
+    padding-top: 100px;
+  }
+
+  #counter-part .overlay .counter-card {
+    padding: 15px 0;
+  }
+  /* ***************** counter part responsive end ******************** */
+
+  /* ***************** courses part responsive start ******************** */
+  #courses-part {
+    padding-top: 100px;
+  }
+  #courses-part .courses-items .left {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    left: -12px;
+  }
+  #courses-part .courses-items .right {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    left: 102%;
+  }
+  #courses-part .courses-items .slick-current {
+    box-shadow: none;
+  }
+  #courses-part .courses-items .slick-current .header-img .overlay {
+    opacity: 0 !important;
+  }
+  #courses-part .courses-items .slick-current .details h2 {
+    color: #222222 !important;
+  }
+  #courses-part .courses-items .slick-current a {
+    background: #2d3e50 !important;
+  }
+  #courses-part .courses-items .courses-slider:hover .header-img .overlay {
+    opacity: 1 !important;
+  }
+  #courses-part .courses-items .courses-slider:hover .details h2 {
+    color: #fbaa33 !important;
+  }
+  #courses-part .courses-items .courses-slider:hover .btn {
+    background: #fbaa33 !important;
+  }
+
+  #courses-part .courses-items .courses-slider .btn {
+    font-size: 16px;
+  }
+  #courses-part .courses-items .courses-slider .identity .img {
+    width: 68%;
+  }
+  #courses-part .courses-items .courses-slider .identity .img p {
+    font-size: 14px;
+  }
+  #courses-part .courses-items .courses-slider .identity .img p span {
+    font-size: 12px;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating {
+    width: 30%;
+    align-self: center;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating i {
+    font-size: 13px;
+  }
+  #courses-part .courses-items .courses-slider .identity .rating p {
+    font-size: 12px;
+  }
+
+  /* ***************** courses part responsive end ******************** */
+
+  /* ***************** events part responsive start ******************** */
+  #events-part {
+    padding-top: 100px;
+  }
+
+  #events-part .calender-items {
+    margin-top: 20px;
+  }
+  #events-part .calender-items .calender-event {
+    flex-direction: row;
+  }
+  #events-part .calender-items .calender-event .event-img {
+    width: 36%;
+    margin-right: 0;
+  }
+
+  #events-part .calender-items .calender-event .event-details {
+    width: 58%;
+    align-self: center;
+  }
+  #events-part .calender-items .calender-event .event-details h4 {
+    font-size: 16px;
+  }
+  #events-part .calender-items .calender-event .event-details p {
+    padding: 10px 0;
+    font-size: 13px;
+    line-height: normal;
+    width: auto !important;
+  }
+  #events-part .calender-items .calender-event .event-details .date-time p {
+    font-size: 12px;
+  }
+  #events-part .calender-items .calender-event .event-details #btn {
+    font-size: 16px;
+  }
+
+  /* ***************** events part responsive end ******************** */
+
+  /* ***************** testi part responsive start ******************** */
+  #testi-part {
+    padding-top: 30px;
+  }
+  #testi-part .testi-part {
+    padding: 25px 0;
+  }
+  #testi-part .testi-part .testi-items {
+    margin-bottom: 30px;
+  }
+  #testi-part .testi-part .testi-items .testi-shape {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #testi-part .testi-part .testi-items .testi-shape .line-shape2 {
+    top: 89%;
+  }
+  #testi-part .testi-part .testi-items .testi-slider {
+    width: 100%;
+  }
+
+  #testi-part .testi-part .testi-items .testi-details {
+    width: 50%;
+  }
+  #testi-part .testi-part .testi-items .testi-details .details-slider {
+    text-align: center;
+  }
+  #testi-part
+    .testi-part
+    .accordion-items
+    .accordion
+    .card
+    .card-header
+    button
+    h4 {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  /* ***************** testi part responsive end ******************** */
+
+  /* ***************** teachers part responsive start ******************** */
+  #teacher-part {
+    padding-top: 100px;
+  }
+  #teacher-part .teacher-items .teacher-slider {
+    margin: 0 10px;
+  }
+  #teacher-part .teacher-items .teacher-slider .teacher-img {
+    height: auto;
+  }
+
+  /* ***************** teachers part responsive end ******************** */
+
+  /* ***************** blog part responsive start ******************** */
+  #blog-part {
+    padding-top: 30px;
+  }
+  #blog-part .blog-part {
+    height: 250px;
+  }
+  #blog-part .blog-part .blog-items .blog-card {
+    margin-top: 20px;
+  }
+  #blog-part .blog-part .blog-items .blog-card .main-img .overlay h4 {
+    font-size: 16px;
+  }
+  #blog-part .blog-part .blog-items .blog-card .double-img .img .overlay h4 {
+    font-size: 14px;
+  }
+  /* ***************** blog part responsive end ******************** */
+
+  /* ***************** footer part responsive start ******************** */
+  #footer-part {
+    padding-top: 100px;
+  }
+  #footer-part .contact {
+    margin-bottom: 30px;
+  }
+  #footer-part .footer-part .links .links-item .first-ul {
+    width: 65%;
+  }
+  #footer-part .footer-part .links .links-item .secound-ul {
+    width: 50%;
+  }
+
+  #footer-part .footer-part .details img {
+    margin-bottom: 16px;
+  }
+  #footer-part .footer-part .details p {
+    margin-bottom: -16px !important;
+  }
+  #footer-part .footer-part .details .icons i {
+    margin-right: 8px;
+  }
+  #footer-part .footer-part .links h2,
+  #footer-part .footer-part .contact h2 {
+    margin: 20px 0;
+  }
+  #footer-part .footer-part .links .links-item ul li {
+    margin-bottom: 12px;
+  }
+
+  #footer-part .footer-part .contact ul li {
+    margin-bottom: 12px;
+  }
+  #footer-part .footer-part .contact ul li .icon {
+    width: 2%;
+  }
+  #footer-part .footer-part .contact ul li .address {
+    width: 78%;
+  }
+  /* ***************** footer part responsive end ******************** */
+
+  /* ***************** about page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 0;
+  }
+  #banner-a .banner-cards {
+    transform: translate(-50%, -50%);
+  }
+  #banner-a .banner-cards .card-items {
+    flex-direction: row;
+  }
+  #banner-a .banner-cards .service-card {
+    width: 100%;
+    padding: 10px 0;
+  }
+  #banner-a .banner-cards .service-card img {
+    width: auto;
+  }
+
+  #about-a {
+    margin-top: 160px;
+  }
+  #about-a .about-slider {
+    margin-top: 30px;
+  }
+  #about-a .slider-texts p,
+  #about-video .video-text p {
+    font-size: 13px;
+  }
+  #about-a .slider-texts .mid {
+    margin: 5px 0;
+  }
+  #about-a .slider-text-p0 p,
+  #about-video .video-text-p0 p {
+    font-size: 13px;
+  }
+  #about-video {
+    margin-top: 40px;
+  }
+  /* ***************** about page responsive end ******************** */
+
+  /* ***************** our courses page responsive start ******************** */
+  #banner-a {
+    margin-bottom: 60px;
+  }
+  #courses-c {
+    padding-top: 0;
+  }
+  #courses-c .courses-items {
+    padding-bottom: 30px;
+  }
+  #courses-c .courses-items .courses-slider .identity {
+    flex-direction: column;
+  }
+  #courses-c .courses-items .courses-slider .identity .img {
+    width: auto;
+    margin: 0 auto;
+  }
+  #courses-c .courses-items .courses-slider .identity .rating {
+    width: auto;
+    margin: 0 auto;
+  }
+  #courses-c .courses-items .courses-slider .details {
+    text-align: center;
+  }
+  #courses-c .courses-items .courses-slider .details h2 {
+    font-size: 20px;
+  }
+  #courses-c .courses-items .courses-slider .btn {
+    font-size: 18px;
+    padding: 13px 15px;
+  }
+  /* ***************** our courses page responsive end ******************** */
+
+  /* ***************** events part responsive start ******************** */
+  #tabs-part {
+    padding-top: 0;
+    margin-top: 150px;
+  }
+
+  #tabs-part .calender-items {
+    margin-top: 20px;
+  }
+  #tabs-part .calender-items .calender-event {
+    flex-direction: row;
+  }
+  #tabs-part .calender-items .calender-event .event-img {
+    width: 36%;
+    margin-right: 0;
+  }
+
+  #tabs-part .calender-items .calender-event .event-details {
+    width: 58%;
+    align-self: center;
+  }
+  #tabs-part .calender-items .calender-event .event-details h4 {
+    font-size: 18px !important;
+  }
+  #tabs-part .calender-items .calender-event .event-details p {
+    padding: 10px 0;
+    font-size: 13px;
+    line-height: normal;
+    width: auto !important;
+  }
+  #tabs-part .calender-items .calender-event .event-details .date-time p {
+    font-size: 12px !important;
+  }
+  #tabs-part .calender-items .calender-event .event-details .date-time p span {
+    margin-left: 10px !important;
+  }
+  #tabs-part .calender-items .calender-event .event-details #btn {
+    font-size: 16px !important;
+  }
+
+  /* ***************** events part responsive end ******************** */
+
+  /* ***************** register page responsive start ******************** */
+
+  #register-part form .text p {
+    font-size: 13px;
+  }
+  #register-part form .text .icon i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  /* ***************** register page responsive end ******************** */
+
+  /* ***************** register page responsive start ******************** */
+
+  #login-part form .text p {
+    font-size: 13px;
+  }
+  /* ***************** register page responsive end ******************** */
+}
+/* ******************** medium device responsive end ******************** */

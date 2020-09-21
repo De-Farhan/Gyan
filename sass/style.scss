@@ -1,0 +1,1355 @@
+//  ***************** All link start *******************
+@import "_variable.scss";
+@import "_mixin.scss";
+@import "_extends.scss";
+//  ***************** All link end *******************
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  h3 {
+    font-family: $font-arimo;
+    font-size: 32px;
+    font-weight: bold;
+    color: $h3-color;
+    text-transform: capitalize;
+  }
+  p {
+    font-family: $font-arimo;
+    font-size: 14px;
+    font-weight: 400;
+    color: $p-color-two;
+    line-height: 24px;
+    width: 590px;
+    margin: 0 auto;
+  }
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+// ********************* header part start ***********************
+#header-part {
+  background: #2d3e50;
+  padding: 15px 0;
+  .header-items {
+    display: flex;
+    justify-content: space-between;
+    .left-text {
+      p {
+        font-family: $font-arimo;
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+        text-transform: capitalize;
+        span {
+          margin-left: 15px;
+        }
+        .secound {
+          text-transform: lowercase;
+        }
+      }
+    }
+    .right-text {
+      p {
+        a {
+          font-family: $font-arimo;
+          font-size: 14px;
+          font-weight: 400;
+          color: #ffffff;
+          text-transform: capitalize;
+          transition: linear 0.4s;
+          &:hover {
+            color: #fbaa33;
+          }
+        }
+        span {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+// ********************* header part end ***********************
+
+// ********************* nav bar part start ***********************
+.navbar {
+  padding: 0;
+}
+.menu {
+  padding-bottom: 35px;
+  .navbar-brand {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    margin-top: 30px;
+    li {
+      margin-left: 45px;
+      margin-top: 20px;
+      a {
+        font-family: $font-arimo;
+        font-size: 16px;
+        font-weight: 400;
+        color: #2d3e50;
+        text-transform: capitalize;
+        padding: 0;
+        transition: linear 0.4s;
+        &:hover {
+          color: #fbaa33;
+        }
+      }
+    }
+    .menu-btn {
+      margin-top: 6px;
+      margin-left: 130px;
+      a {
+        background: #2d3e50;
+        color: #ffffff;
+        padding: 13px 15px !important;
+        border-radius: 5px;
+        outline: none;
+        transition: linear 0.4s;
+        &:hover {
+          background: #fbaa33;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+.menu-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 9999;
+  animation: menu-ani linear 1s;
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+@keyframes menu-ani {
+  from {
+    top: -70px;
+  }
+  to {
+    top: 0;
+  }
+}
+// ********************* nav bar part end ***********************
+
+// ********************* banner part start ***********************
+#banner-part {
+  margin-bottom: 100px;
+  position: relative;
+  .banner {
+    .left {
+      position: absolute;
+      left: 30px;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 70px;
+      height: 70px;
+      font-size: 32px;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      line-height: 70px;
+      text-align: center;
+      z-index: 9999;
+      transition: linear 0.4s;
+      &:hover {
+        color: #ffffff;
+        background: #fbaa33;
+        border: 1px solid transparent;
+      }
+    }
+    .right {
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 70px;
+      height: 70px;
+      font-size: 32px;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      line-height: 70px;
+      text-align: center;
+      z-index: 9999;
+      transition: linear 0.4s;
+      &:hover {
+        border: 1px solid transparent;
+        color: #ffffff;
+        background: #fbaa33;
+      }
+    }
+    .banner-slider {
+      width: 100%;
+      height: 100%;
+      background: url(../images/banner-img.jpg) no-repeat center;
+      background-size: cover;
+      &:focus {
+        outline: none;
+      }
+      .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(45, 62, 80, 0.4);
+        padding: 130px 0 220px 0;
+        h2 {
+          font-family: $font-arimo;
+          font-size: 52px;
+          font-weight: bold;
+          color: #ffffff;
+          text-transform: uppercase;
+          span {
+            display: block;
+            text-transform: capitalize;
+            font-size: 40px;
+          }
+        }
+        p {
+          font-family: $font-arimo;
+          font-size: 14px;
+          font-weight: 400;
+          color: $p-color-three;
+          line-height: 24px;
+          padding: 30px 0 60px 0;
+          width: 580px;
+        }
+        a {
+          @include btn();
+          &:hover {
+            @include btn_hover;
+          }
+        }
+      }
+    }
+    .bg-img2 {
+      background: url(../images/banner-img2.jpg) no-repeat center;
+      background-size: cover;
+    }
+    .bg-img3 {
+      background: url(../images/banner-img3.jpg) no-repeat center;
+      background-size: cover;
+    }
+  }
+  .banner-cards {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .card-items {
+      display: flex;
+    }
+    .service-card {
+      width: 33.35%;
+      margin: 0 auto;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 30px 0;
+      border: 1px solid #dddddd;
+      -webkit-box-shadow: 0px 10px 30px 20px transparent;
+      -moz-box-shadow: 0px 10px 30px 20px transparent;
+      box-shadow: 0px 10px 30px 20px transparent;
+      transition: linear 0.4s;
+      &:hover {
+        -webkit-box-shadow: 0px 10px 30px 20px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 10px 30px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 10px 30px 20px rgba(0, 0, 0, 0.1);
+      }
+      h4 {
+        font-family: $font-arimo;
+        font-size: 24px;
+        font-weight: 400;
+        color: $h4-color;
+        text-transform: capitalize;
+        padding: 20px 0;
+      }
+      h6 a {
+        font-size: 14px;
+        font-weight: 400;
+        color: #999999;
+        text-transform: capitalize;
+        transition: linear 0.4s;
+        &:hover {
+          color: #fbaa33;
+        }
+      }
+    }
+  }
+}
+
+// ********************* banner part end ***********************
+
+// ********************* about part start ***********************
+#about-part {
+  @include section-m;
+  .about-slider {
+    position: relative;
+    .line-shape1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 70%;
+      height: 3px;
+    }
+    .line-shape2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 70%;
+      height: 3px;
+    }
+    .about-items {
+      .img {
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(15% 0, 100% 0, 85% 100%, 0% 100%);
+        position: relative;
+        &:focus {
+          outline: none !important;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          padding: 7px 0;
+        }
+      }
+      ul {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50, 0);
+      }
+      ul li {
+        display: inline-block;
+        margin-right: 5px;
+      }
+      ul li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #2d3e50;
+        background: transparent;
+        outline: none;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+          width: 10px;
+          height: 10px;
+          background: #fbaa33;
+          opacity: 0;
+          transition: 0.4s;
+        }
+      }
+      ul .slick-active button {
+        border: 1px solid transparent;
+      }
+      ul .slick-active button::after {
+        opacity: 1;
+      }
+    }
+  }
+  .about-details {
+    padding: 45px 0;
+    .p-one {
+      font-family: $font-arimo;
+      font-size: 14px;
+      font-weight: 400;
+      color: $p-color-one;
+    }
+    .p-two {
+      @extend .p-one;
+      padding: 35px 0 60px 0;
+    }
+    a {
+      @include btn;
+      &:hover {
+        @include btn_hover;
+      }
+    }
+  }
+}
+// ********************* about part end ***********************
+
+// ********************* counter part start ***********************
+#counter-part {
+  @include section-m;
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background: url(../images/blog-img.png) no-repeat center;
+    background-size: cover;
+    .counter-card {
+      text-align: center;
+      padding: 40px 0;
+      p {
+        span {
+          display: block;
+          font-size: 40px;
+          font-weight: bold;
+        }
+        font-family: $font-arimo;
+        font-size: 24px;
+        font-weight: 400;
+        color: $p-color-three;
+        text-transform: capitalize;
+        position: relative;
+      }
+      img {
+        width: 80px;
+        height: 3px;
+      }
+    }
+  }
+}
+// ********************* counter part end ***********************
+
+// ********************* courses part start ***********************
+#courses-part {
+  @include section-m;
+  .courses-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .left {
+      @extend %icon-design;
+      background: transparent;
+      border: 1px solid #2d3e50;
+      color: #2d3e50;
+      left: -50px;
+      z-index: 1;
+      &:hover {
+        @extend %icon-hover;
+        color: #ffffff;
+        border: 1px solid transparent;
+      }
+    }
+    .right {
+      @extend %icon-design;
+      background: transparent;
+      border: 1px solid #2d3e50;
+      color: #2d3e50;
+      left: 105%;
+      z-index: 1;
+      &:hover {
+        @extend %icon-hover;
+        color: #ffffff;
+        border: 1px solid transparent;
+      }
+    }
+    .slick-list {
+      padding-bottom: 35px !important;
+    }
+    .slick-current {
+      -webkit-box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.1);
+      transition: 0.4s;
+    }
+    .slick-current .header-img .overlay {
+      opacity: 1 !important;
+    }
+    .slick-current a {
+      background: #fbaa33 !important;
+    }
+    .slick-current .details h2 {
+      color: #fbaa33 !important;
+    }
+    .courses-slider {
+      width: 31%;
+      background: #f5f5f5;
+      padding: 16px;
+      box-sizing: border-box;
+      position: relative;
+      margin: 0 20px;
+      &:focus {
+        outline: none;
+      }
+      .header-img {
+        width: 100%;
+        height: 230px;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.7);
+          opacity: 0;
+          transition: 0.4s;
+          i {
+            @extend %icon-design;
+            background: #fbaa33;
+          }
+        }
+      }
+      .identity {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        .img {
+          width: 70%;
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: inline-block;
+          }
+          p {
+            span {
+              display: block;
+              font-size: 13px;
+            }
+            display: inline-block;
+            font-family: $font-arimo;
+            font-size: 16px;
+            font-weight: 400;
+            color: #444444;
+            text-transform: capitalize;
+            padding-left: 10px;
+            vertical-align: middle;
+          }
+        }
+        .rating {
+          width: 30%;
+          text-align: right;
+          i {
+            color: #fbaa33;
+            font-size: 14px;
+          }
+          p {
+            font-family: $font-arimo;
+            font-size: 13px;
+            font-weight: 400;
+            color: #999999;
+            text-transform: capitalize;
+          }
+        }
+      }
+      .details {
+        position: relative;
+        h2 {
+          font-family: $font-arimo;
+          font-size: 24px;
+          font-weight: 400;
+          color: $h2-color;
+          text-transform: capitalize;
+        }
+        p {
+          font-family: $font-arimo;
+          font-size: 13px;
+          font-weight: 400;
+          color: $p-color-one;
+          line-height: 24px;
+          padding: 20px 0;
+        }
+      }
+      .duration {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0 40px 0;
+        h5 {
+          font-family: $font-arimo;
+          font-size: 13px;
+          font-weight: 400;
+          color: #999999;
+          text-transform: capitalize;
+          margin-bottom: 5px;
+        }
+        p {
+          font-family: $font-arimo;
+          font-size: 13px;
+          font-weight: 400;
+          color: $p-color-one;
+          text-transform: capitalize;
+        }
+      }
+      .btn {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        outline: none;
+        @include btn;
+        &:hover {
+          @include btn_hover;
+        }
+      }
+    }
+  }
+}
+// ********************* courses part end ***********************
+
+// ********************* events part start ***********************
+#events-part {
+  @include section-m;
+  .calender {
+    .img {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .calender-items {
+    .calender-event {
+      display: flex;
+      justify-content: space-between;
+      background: #f5f5f5;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+      transition: linear 0.4s;
+      &:hover {
+        -webkit-box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 10px 30px 10px rgba(61, 43, 43, 0.1);
+      }
+      &:hover .event-details h4,
+      &:hover .event-details .date-time i {
+        color: #fbaa33;
+      }
+      &:hover .event-details #btn {
+        background: #fbaa33;
+      }
+      .event-img {
+        width: 39%;
+        height: 100%;
+        margin-right: 30px;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .date {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 50px;
+          height: 50px;
+          background: #ff3232;
+          padding: 10px;
+          box-sizing: border-box;
+          p {
+            span {
+              display: block;
+              margin-bottom: -7px;
+            }
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: $font-arimo;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+          }
+        }
+      }
+      .event-details {
+        width: 55%;
+        h4 {
+          font-family: $font-arimo;
+          font-size: 20px;
+          font-weight: bold;
+          color: $h3-color;
+          text-transform: capitalize;
+          transition: 0.4s;
+        }
+        p {
+          font-family: $font-arimo;
+          font-size: 14px;
+          font-weight: 400;
+          color: $p-color-one;
+          line-height: 24px;
+          padding: 10px 0;
+          width: 270px;
+        }
+        .date-time {
+          p {
+            font-family: $font-arimo;
+            font-size: 14px;
+            font-weight: 400;
+            color: #777777;
+            padding: 0 0 10px 0;
+            i {
+              font-size: 14px;
+              color: #2d3e50;
+              transition: 0.4s;
+            }
+            span {
+              display: inline-block;
+              margin-left: 20px;
+            }
+          }
+        }
+        #btn {
+          @include btn;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+}
+// ********************* events part end ***********************
+
+// ********************* our testi part start ***********************
+#testi-part {
+  @include section-m;
+  .testi-part {
+    background: #f5f5f5;
+    padding: 60px 0;
+    .testi-items {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .testi-shape {
+        width: 40%;
+        position: relative;
+        .line-shape1 {
+          position: absolute;
+          top: -10px;
+          left: 0;
+          width: 220px;
+          height: 3px;
+        }
+        .line-shape2 {
+          position: absolute;
+          bottom: 0;
+          right: 0px;
+          width: 220px;
+          height: 3px;
+        }
+      }
+      .testi-slider {
+        width: 100%;
+        .left {
+          @extend %icon-design;
+          left: -50px;
+          top: 38%;
+          font-weight: bold;
+          &:hover {
+            @extend %icon-hover;
+          }
+        }
+        .right {
+          @extend %icon-design;
+          left: -50px;
+          top: 60%;
+          font-weight: bold;
+          &:hover {
+            @extend %icon-hover;
+          }
+        }
+
+        .slick-list {
+          padding-bottom: 10px;
+        }
+        .slider-items {
+          width: 100%;
+          &:focus {
+            outline: none;
+          }
+          .img {
+            width: 100%;
+            height: 270px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      .testi-details {
+        width: 60%;
+        .details-slider {
+          padding: 50px 0 50px 20px;
+          &:focus {
+            outline: none;
+          }
+          p {
+            font-family: $font-arimo;
+            font-size: 13px;
+            font-weight: 400;
+            color: $p-color-one;
+            line-height: 24px;
+            padding-bottom: 20px;
+          }
+          h4 {
+            font-family: $font-arimo;
+            font-size: 20px;
+            font-weight: bold;
+            color: $h4-color;
+            text-transform: capitalize;
+            span {
+              font-size: 14px;
+            }
+          }
+          i {
+            font-size: 14px;
+            color: #fbaa33;
+          }
+        }
+      }
+    }
+    .accordion-items {
+      .accordion {
+        height: 350px;
+        .card {
+          background: none;
+          border: 0;
+          border-radius: 0;
+          margin-bottom: 20px;
+          overflow: visible;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          .card-header {
+            padding: 0;
+            border: 0;
+            background: transparent;
+            margin-bottom: 0;
+            button {
+              padding: 15px 20px;
+              box-sizing: border-box;
+              background: #fbaa33;
+              border: 0;
+              border-radius: 5px;
+              border-bottom-left-radius: 0;
+              border-bottom-right-radius: 0;
+              transition: linear 0.4s;
+              position: relative;
+              &:focus {
+                box-shadow: none;
+                text-decoration: none;
+              }
+              &:hover {
+                color: #444444;
+                text-decoration: none;
+              }
+              h4 {
+                font-family: $font-arimo;
+                font-size: 20px;
+                font-weight: 400;
+                color: #ffffff;
+                text-transform: capitalize;
+                transition: 0.4s;
+              }
+              i {
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translate(0, -50%);
+                font-size: 20px;
+                color: #ffffff;
+                transition: 0.4s;
+              }
+            }
+            .collapsed {
+              background: #ffffff;
+              border-radius: 5px;
+              -webkit-box-shadow: 0px 15px 30px 10px rgba(0, 0, 0, 0.1);
+              -moz-box-shadow: 0px 15px 30px 10px rgba(0, 0, 0, 0.1);
+              box-shadow: 0px 15px 30px 10px rgba(0, 0, 0, 0.1);
+              h4 {
+                color: $h4-color;
+              }
+              i {
+                color: #444444;
+                transform: translate(0, -50%) rotateX(180deg);
+              }
+            }
+          }
+          .card-body {
+            padding: 20px 30px;
+            box-sizing: border-box;
+            background: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+// ********************* our testi part end ***********************
+
+// ********************* our teacher part start ***********************
+#teacher-part {
+  @include section-m;
+  .teacher-items {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    .teacher-slider {
+      width: 23%;
+      text-align: center;
+      &:hover .teacher-img .teacher-icon {
+        opacity: 1;
+      }
+      .teacher-img {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .teacher-icon {
+          width: 100%;
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          transition: 0.4s;
+          i {
+            @extend %icon-design;
+            position: static;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            transform: none;
+            margin-left: 10px;
+            &:hover {
+              @extend %icon-hover;
+            }
+          }
+        }
+      }
+      h4 {
+        font-family: $font-arimo;
+        font-size: 20px;
+        font-weight: bold;
+        color: $h4-color;
+        text-transform: capitalize;
+        margin-top: 40px;
+      }
+      p {
+        font-family: $font-arimo;
+        font-size: 16px;
+        font-weight: 400;
+        color: $p-color-one;
+        text-transform: capitalize;
+        margin-top: 5px;
+        padding-bottom: 10px;
+        position: relative;
+        display: inline-block;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+// ********************* our teacher part end ***********************
+
+// ********************* our blog part start ***********************
+#blog-part {
+  @include section-m;
+  .blog-part {
+    height: 300px;
+    background: #2d3e50;
+    margin-bottom: 700px;
+    padding-top: 30px;
+    .title {
+      h3 {
+        color: #ffffff;
+      }
+      p {
+        color: #ffffff;
+      }
+    }
+    .blog-items {
+      .blog-card {
+        .main-img {
+          width: 100%;
+          height: 465px;
+          position: relative;
+          overflow: hidden;
+          &:hover .icons {
+            opacity: 1;
+          }
+          &:hover .overlay .date-view {
+            opacity: 1;
+          }
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          .icons {
+            position: absolute;
+            top: 30px;
+            right: 20px;
+            width: 40px;
+            transition: linear 0.4s;
+            opacity: 0;
+            i {
+              @extend %icon-design;
+              position: static;
+              width: 40px;
+              height: 40px;
+              line-height: 40px;
+              font-size: 13px;
+              transform: none;
+              margin-bottom: 10px;
+              &:hover {
+                @extend %icon-hover;
+              }
+            }
+          }
+          .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.55);
+            -webkit-box-shadow: 0px -19px 15px 0px rgba(0, 0, 0, 0.55);
+            -moz-box-shadow: 0px -19px 15px 0px rgba(0, 0, 0, 0.55);
+            box-shadow: 0px -19px 15px 0px rgba(0, 0, 0, 0.55);
+            padding: 30px 25px 20px 25px;
+            box-sizing: border-box;
+            h4 {
+              font-family: $font-arimo;
+              font-size: 20px;
+              font-weight: 400;
+              color: #ffffff;
+            }
+            a {
+              font-family: $font-arimo;
+              font-size: 13px;
+              font-weight: 400;
+              color: #ffffff;
+            }
+            .date-view {
+              display: flex;
+              justify-content: space-between;
+              margin-top: 25px;
+              opacity: 0;
+              transition: linear 0.4s;
+              .date {
+                p {
+                  font-family: $font-arimo;
+                  font-size: 13px;
+                  font-weight: 400;
+                  color: #ffffff;
+                }
+              }
+              .view {
+                p {
+                  font-family: $font-arimo;
+                  font-size: 13px;
+                  font-weight: 400;
+                  color: #ffffff;
+                  span {
+                    display: inline-block;
+                    margin-left: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .double-img {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 25px;
+          .img {
+            width: 48%;
+            height: 270px;
+            position: relative;
+            overflow: hidden;
+            &:hover .icons {
+              opacity: 1;
+            }
+            img {
+              width: 100%;
+              height: 100%;
+            }
+            .icons {
+              position: absolute;
+              top: 20px;
+              right: 15px;
+              width: 40px;
+              transition: linear 0.4s;
+              opacity: 0;
+              i {
+                @extend %icon-design;
+                position: static;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 13px;
+                transform: none;
+                margin-bottom: 10px;
+                &:hover {
+                  @extend %icon-hover;
+                }
+              }
+            }
+            .overlay {
+              width: 100%;
+              background: rgba(0, 0, 0, 0.55);
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              padding: 10px;
+              box-sizing: border-box;
+              -webkit-box-shadow: 0px -19px 15px 0px rgba(0, 0, 0, 0.55);
+              -moz-box-shadow: 0px -19px 15px 0px rgba(0, 0, 0, 0.55);
+              box-shadow: 0px -19px 15px 0px rgba(0, 0, 0, 0.55);
+              h4 {
+                font-family: $font-arimo;
+                font-size: 16px;
+                font-weight: 400;
+                color: #ffffff;
+                margin-bottom: 5px;
+              }
+              a {
+                font-family: $font-arimo;
+                font-size: 13px;
+                font-weight: 400;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// ********************* our blog part end ***********************
+.back-top {
+  i {
+    width: 40px;
+    height: 40px;
+    background: #fbaa33;
+    color: #2d3e50;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: linear 0.4s;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+.back-top-fixed {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99999999;
+}
+// ********************* footer part start ***********************
+#footer-part {
+  @include section-m;
+  .footer-part {
+    background: #2d3e50;
+    padding-top: 30px;
+    .details {
+      img {
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: $font-arimo;
+        font-size: 14px;
+        font-weight: 400;
+        color: $p-color-three;
+        line-height: 24px;
+        padding-bottom: 30px;
+      }
+      .icons {
+        width: 100%;
+        i {
+          @extend %icon-design;
+          position: static;
+          transform: none;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          background: #ffffff;
+          color: #2d3e50;
+          margin-right: 10px;
+          &:hover {
+            @extend %icon-hover;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .links {
+      h2 {
+        @extend %footer-title;
+      }
+      .links-item {
+        display: flex;
+        justify-content: space-between;
+        ul {
+          width: 50%;
+          li {
+            margin-bottom: 25px;
+            a {
+              font-family: $font-arimo;
+              font-size: 16px;
+              font-weight: 400;
+              color: #ffffff;
+              text-transform: capitalize;
+              transition: linear 0.4s;
+              &:hover {
+                color: #fbaa33;
+                padding-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .contact {
+      h2 {
+        @extend %footer-title;
+      }
+      ul {
+        li {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 30px;
+          .icon {
+            width: 20%;
+            align-self: center;
+            i {
+              @extend %icon-design;
+              position: static;
+              transform: none;
+              font-size: 24px;
+              background: #ffffff;
+              color: #2d3e50;
+              &:hover {
+                @extend %icon-hover;
+                color: #ffffff;
+              }
+            }
+          }
+          .address {
+            width: 80%;
+            h5 {
+              font-family: $font-arimo;
+              font-size: 14px;
+              font-weight: 400;
+              color: #fbaa33;
+              text-transform: uppercase;
+              margin-bottom: 5px;
+            }
+            p {
+              display: inline-block;
+              font-family: $font-arimo;
+              font-size: 16px;
+              font-weight: 400;
+              color: $p-color-three;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+    .footer-img {
+      display: flex;
+      .img {
+        width: 20%;
+        height: 265px;
+        text-align: center;
+        position: relative;
+        &:hover .toltip {
+          opacity: 1;
+        }
+        &:focus {
+          outline: none;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .toltip {
+          width: 70%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transition: linear 0.4s;
+          opacity: 0;
+          p {
+            display: inline-block;
+            font-family: $font-arimo;
+            font-size: 16px;
+            font-weight: bold;
+            color: #2d3e50;
+            background: #ffffff;
+            padding: 10px;
+            box-sizing: border-box;
+            width: 100%;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .copy-right {
+      text-align: center;
+      p {
+        font-family: $font-arimo;
+        font-size: 14px;
+        font-weight: 400;
+        color: $p-color-three;
+        padding: 15px 0;
+        border-top: 2px solid #ffffff;
+        span {
+          color: #fbaa33;
+        }
+      }
+    }
+  }
+}
+// ********************* footer part end ***********************

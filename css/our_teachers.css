@@ -1,0 +1,184 @@
+/* *************************** banner part start **************************** */
+#banner-a {
+  position: relative;
+}
+#banner-a .banner {
+  background: url(../images/banner-img.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+#banner-a .banner .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 60px 0 160px 0;
+  text-align: center;
+}
+#banner-a .banner h4 {
+  font-family: "Arimo", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#banner-a .banner ul li {
+  display: inline-block;
+}
+#banner-a .banner ul li a {
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+#banner-a .banner ul li:last-child a {
+  color: #fbaa33;
+  cursor: text;
+}
+#banner-a .banner ul li i {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+#banner-a .banner-cards {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#banner-a .banner-cards .card-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#banner-a .banner-cards .service-card {
+  width: 33.35%;
+  margin: 0 auto;
+  background: #f5f5f5;
+  text-align: center;
+  padding: 30px 0;
+  border: 1px solid #dddddd;
+  -webkit-box-shadow: 0px 10px 30px 20px transparent;
+  box-shadow: 0px 10px 30px 20px transparent;
+  -webkit-transition: linear 0.4s;
+  transition: linear 0.4s;
+}
+#banner-a .banner-cards .service-card:hover {
+  -webkit-box-shadow: 0px 10px 30px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px 20px rgba(0, 0, 0, 0.1);
+}
+#banner-a .banner-cards .service-card h4 {
+  font-family: "Arimo", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #444444;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+#banner-a .banner-cards .service-card h6 a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  text-transform: capitalize;
+  -webkit-transition: linear 0.4s;
+  transition: linear 0.4s;
+}
+#banner-a .banner-cards .service-card h6 a:hover {
+  color: #fbaa33;
+}
+/* *************************** banner part end **************************** */
+
+/* *************************** teacher part start **************************** */
+#teacher-details {
+  margin-top: 100px;
+}
+#teacher-details .teacher-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+#teacher-details .teacher-items .teacher-slider {
+  width: 100%;
+  text-align: center;
+}
+#teacher-details
+  .teacher-items
+  .teacher-slider:hover
+  .teacher-img
+  .teacher-icon {
+  opacity: 1;
+}
+#teacher-details .teacher-items .teacher-slider .teacher-img {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+#teacher-details .teacher-items .teacher-slider .teacher-img img {
+  width: 100%;
+  height: 100%;
+}
+#teacher-details .teacher-items .teacher-slider .teacher-img .teacher-icon {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: linear 0.4s;
+  transition: linear 0.4s;
+}
+#teacher-details .teacher-items .teacher-slider .teacher-img .teacher-icon i {
+  position: static;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  -webkit-transform: none;
+  transform: none;
+  background: #2d3e50;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 10px;
+  transition: linear 0.4s;
+}
+#teacher-details
+  .teacher-items
+  .teacher-slider
+  .teacher-img
+  .teacher-icon
+  i:hover {
+  background: #fbaa33;
+}
+#teacher-details .teacher-items .teacher-slider h4 {
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444444;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+#teacher-details .teacher-items .teacher-slider p {
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444444;
+  text-transform: capitalize;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+#teacher-details .teacher-items .teacher-slider img {
+  display: block;
+  margin: 0 auto;
+}
+/* *************************** teacher part end **************************** */

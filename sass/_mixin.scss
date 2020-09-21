@@ -1,0 +1,22 @@
+//  ******************** All mixin here ***********************
+@mixin section-m {
+  padding-top: 130px;
+}
+
+@mixin btn {
+  display: inline-block;
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background: #2d3e50;
+  color: #ffffff;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 13px 20px;
+  margin-right: 20px;
+  outline: none;
+  transition: linear 0.4s;
+}
+@mixin btn_hover {
+  background: #fbaa33;
+}
